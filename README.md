@@ -34,7 +34,7 @@ You’ll also find an **`interesting-figures/`** section with **reusable, generi
      "tidyverse","rstatix","effectsize","broom",
      "patchwork","readr","ggplot2","knitr","rmarkdown"
    ))
-3. **Each script begins with a small Setup block (packages, paths, set.seed()).** 
+3. **Each script ** begins with a small Setup block (packages, paths, set.seed()).
  - Edit file paths to point to your data.
  - Run the script top → bottom.
  
