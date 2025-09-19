@@ -1,19 +1,40 @@
-#ResearchMethodsL7 — Teaching Scripts & Templates
-This repository contains all the R scripts we work through in class during the Research Methods for Health & Performance MSc component.
+# ResearchMethodsL7 — Teaching Scripts & Templates
 
-Materials are organised by the same teaching modules we follow during the course.
-You’ll also find an interesting-figures/ section with reusable, generic scripts ready to adapt to your own data.
-Goal: help you use RStudio confidently for your coursework and, especially, for your dissertation.
+This repository contains all the **R scripts used in class** during the *Research Methods for Health & Performance* MSc component.  
+Materials are **organised by the same teaching modules** we follow during the course.  
+You’ll also find an **`interesting-figures/`** section with **reusable, generic scripts** ready to adapt to **your own data**.
 
-#Getting started
+> **Goal:** help you use **RStudio** confidently for coursework and especially for your **dissertation**.
 
-Download/clone the repo and open ResearchMethodsL7.Rproj in RStudio.
-Install needed packages (only once):
-install.packages(c(
-  "tidyverse","readr","ggplot2","rstatix","effectsize",
-  "broom","patchwork","knitr","rmarkdown"
-))
-)
+---
+
+## What’s inside
+
+- `Module-01_* /`, `Module-02_* /`, …  
+  Scripts mirroring the **teaching modules** (e.g., normality checks, correlations, linear models, effect sizes).
+- `interesting-figures/`  
+  Ready-to-adapt templates such as:
+  - Distribution plots & **Q–Q** checks
+  - Correlation heatmaps
+  - Regression diagnostics
+  - Effect-size plots (Cohen’s *d*, Hedges’ *g*)
+  - An **APA-ready ggplot theme**
+- `outputs/figures/` and `outputs/tables/` (created by scripts as needed)
+
+> Please **do not commit raw or confidential data** to this repository.
+
+---
+
+## Getting started
+
+1. **Clone or download** the repo and open `ResearchMethodsL7.Rproj` in RStudio.
+2. **Install packages** (one-off):
+   ```r
+   install.packages(c(
+     "tidyverse","rstatix","effectsize","broom",
+     "patchwork","readr","ggplot2","knitr","rmarkdown"
+   ))
+
 
 Each script begins with a small Setup section (packages, paths, and set.seed()); edit the paths to point to your data.
 Repository structure
