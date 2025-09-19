@@ -1,4 +1,4 @@
-# ResearchMethodsL7 — Teaching Scripts & Templates
+# Research Methods L7 — Teaching Scripts & Templates (University of Chichester)
 
 This repository contains all the **R scripts used in class** during the *Research Methods for Health & Performance* MSc component.  
 Materials are **organised by the same teaching modules** we follow during the course.  
