@@ -45,16 +45,25 @@ Ready-to-adapt templates (e.g., distribution plots & Q–Q, correlation heatmaps
 outputs/figures/ and outputs/tables/ (created by scripts as needed).
 Please do not commit raw or confidential data to this repository.
 
-#How to use the scripts
+## How to use the scripts
 Replace the example dataset (usually called df) with your own and run the script top to bottom.
 Most plotting scripts save figures to outputs/figures/ with informative filenames.
 Where relevant, you’ll see comments indicating what to edit (column names, factors, labels).
 
-#Figures & reporting
+## Figures & reporting
+
 For assessed work, ensure figures meet APA 7th expectations (titles, captions, legible axes, file resolution). Helpful guidance: https://apastyle.apa.org/style-grammar-guidelines/tables-figures/figures.
 
-#Questions & support
+
+## Questions & support
+
 Bring queries to workshops or open an Issue on this repository—include a minimal reproducible example if possible.
 
-#Licence
+
+## Licence
+
 Unless stated otherwise, materials are released under the MIT License for educational use.
+
+
+
+
